@@ -1,5 +1,14 @@
 p {
     font-size: larger;
     color: rgb(211, 192, 192);
-    background: rgb(55, 46, 46);
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 120px;
+    gap: 50px;
+    background: black;
 }
